@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+#corpo{
+    background-image: url("img/fundocoração.jpeg");
+    color: #800909;
+    font-family: 'Crete Round', serif;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 60px;
+    padding-bottom: 20%;
+}
+
+
+#roxo{
+    background-color: #836FFF;
+    font-size: 25px;
+    border-radius: 25px;
+    color: white;
+    width: 150px;
+    margin-top: 10%;
+    
+}
+
+#verde{
+    background-color: #90EE90;
+    font-size: 25px;
+    border-radius: 25px;
+    color: white;
+    width: 150px;
+    margin-top: 10%;
+    
+}
+
+#vermelho{
+    background-color:#F08080;
+    font-size: 25px;
+    border-radius: 25px;
+    color: white;
+    width: 150px;
+    margin-top: 10%;
+    
+}
+
+#azul{
+    background-color: #87CEFA;
+    font-size: 25px;
+    border-radius: 25px;
+    color: white;
+    width: 150px;
+    margin-top: 10%;
+}
