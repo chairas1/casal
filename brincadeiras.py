@@ -19,4 +19,6 @@ elif cor == azul:
     print(random.choice(azul))
 
 else:
-    print(random.choice(verde)
+    print(random.choice(verde))
+
+
