@@ -1,3 +1,10 @@
+<?php
+  $roxo = array("Risoto", "Hambúrguer", "Lámen", "Tábua de frios", "Massa c/ gorgonzola", "Tomate confit", "Brie folhado", "Panqueca americana", "Arroz carreteiro", "Drinks especiais");
+  $vermelho = array("Sushi", "Pizza", "Hambúrguer", "Comida árabe", "Cachorro quente", "Casa de drink", "Casa de carne", "Sorveteria", "Café da manhã", "Self service");
+  $azul = array("Noite de filme","Spa day", "Responder uma TAG para se conhecer melhor", "Baixar um app de relacionamento", "Vídeo game", "Ligar para as amigas e fazer um jantar juntas", "Fit dance", "Noite de skincare", "Faxina no guarda-roupa", "Começar um livro novo");
+  $verde = array("Ir no cinema", "Escolher um restaurante pelo prato que quer comer.", "Ir em uma cafeteria que nunca foi", "Sair com as amigas", "Assistir o nascer do sol", "Spa day", "Ir em um motel diferente", "Andar de bike", "Show", "Stand up", "Marcar um encontro");
+?>
+
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -13,19 +20,25 @@
     <title>Faça algo diferente hoje!!!</title>
   </head>
   <body id="corpo">
-    <div class="container md-8 center">
-          <h1>Clique em um dos botões para sair da rotina hoje !!!</h1>
-      <?php
-          $roxo = array("Risoto", "Hambúrguer", "Lámen", "Tábua de frios", "Massa c/ gorgonzola", "Tomate confit", "Brie folhado", "Panqueca americana", "Arroz carreteiro", "Drinks especiais");
-          $vermelho = array("Sushi", "Pizza", "Hambúrguer", "Comida árabe", "Cachorro quente", "Casa de drink", "Casa de carne", "Sorveteria", "Café da manhã", "Self service");
-          $azul = array("Noite de filme","Spa day", "Responder uma TAG para se conhecer melhor", "Baixar um app de relacionamento", "Vídeo game", "Ligar para as amigas e fazer um jantar juntas", "Fit dance", "Noite de skincare", "Faxina no guarda-roupa", "Começar um livro novo");
-          $verde = array("Ir no cinema", "Escolher um restaurante pelo prato que quer comer.", "Ir em uma cafeteria que nunca foi", "Sair com as amigas", "Assistir o nascer do sol", "Spa day", "Ir em um motel diferente", "Andar de bike", "Show", "Stand up", "Marcar um encontro");
-      ?>
-          <div class="d-grid gap-2 col-4 mx-auto">
-            <button type="button" class="btn btn-lg" id="roxo">Jantar em casa</button>
-            <button type="button" class="btn btn-lg" id="vermelho">Jantar Fora</button>
-            <button type="button" class="btn btn-lg" id="azul">Ficar em casa</button>
-            <button type="button" class="btn btn-lg" id="verde">Sair pra passear</button>
-          </div>
+    <div class="container clearfix">
+      <h1>Clique em um dos botões para sair da rotina hoje !!!</h1>
+    <div class="row configdiv">
+      <div class="col-6 col-sm-4">
+        <button type="button" class="btn btn-lg" id="roxo">Jantar em casa</button>
+      </div>
+      <div class="col-6 col-sm-4">
+        <button type="button" class="btn btn-lg" id="vermelho">Jantar Fora</button>
+      </div>
 
+      <!-- Force next columns to break to new line at md breakpoint and up -->
+      <div class="w-100 d-none d-md-block"></div>
+
+      <div class="col-6 col-sm-4">
+        <button type="button" class="btn btn-lg" id="azul">Ficar em casa</button>
+      </div>
+      <div class="col-6 col-sm-4">
+        <button type="button" class="btn btn-lg" id="verde">Sair pra passear</button>
+      </div>
     </div>
+  </div>
+  </body>

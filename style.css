@@ -6,7 +6,7 @@
     font-family: 'Crete Round', serif;
     background-position: center;
     background-attachment: fixed;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 20%;
 }
 
@@ -36,7 +36,7 @@
     font-size: 25px;
     border-radius: 25px;
     color: white;
-    width: 150px;
+    width: 180px;
     margin-top: 10%;
     
 }
@@ -48,4 +48,11 @@
     color: white;
     width: 150px;
     margin-top: 10%;
+}
+
+.configdiv {
+    border: 1px solid #DDDDDD;
+    margin-right: 28px;
+    margin-bottom: 25px;
+    padding: 10px;
 }
